@@ -2,13 +2,14 @@ site_name: 我的个人博客
 nav:
   - 首页: index.md
   - 第一篇博客: first-post.md
+
 theme:
   name: material
   palette:
-    # 日间模式
+    # 日间浅色模式
     - scheme: default
-      primary: indigo  # 顶部栏主色
-      accent: orange   # 按钮高亮色
+      primary: indigo
+      accent: orange
       toggle:
         icon: material/weather-night
         name: 切换暗色
@@ -18,5 +19,7 @@ theme:
       accent: cyan
       toggle:
         icon: material/weather-sunny
-        name: 切换亮色  
-
+        name: 切换亮色
+  features:
+    - navigation.top
+    - content.code.copy
