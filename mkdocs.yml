@@ -30,3 +30,5 @@ theme:
     - navigation.top           # 返回顶部按钮
     - search.highlight         # 搜索结果高亮
     - search.share             # 分享搜索结果链接
+extra_css:
+  - stylesheets/extra.css
